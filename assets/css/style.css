@@ -27,6 +27,14 @@ body {
   padding: 20px;
   text-align: center;
 }
+.aside p {
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.aside p:hover {
+  background-color: #c0c0c0;
+}
 
 .productos {
   grid-area: productos;
@@ -45,6 +53,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.producto:hover {
+  border: 1px solid #666;
 }
 
 .producto img {
